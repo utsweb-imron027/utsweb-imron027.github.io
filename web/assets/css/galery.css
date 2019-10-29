@@ -1,0 +1,171 @@
+html, body{
+  background: #white;
+  font-family: callibri, verdana, arial;
+  margin: 0;
+  height: 100%;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+th {
+     text-align: left;
+}
+
+h4{
+	color: white;
+}
+        
+
+img.icon-kontak{
+      width: 32px;
+      height:32px;
+      margin:10px;
+}
+
+.container{
+	width: 100%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header{
+	background: linear-gradient(to right, #5b86e5, #36d1dc);
+	padding: 20px;
+	text-align: center;
+	margin-top: -10px;
+}
+
+#header h2{
+	margin: 0px;
+	color: white;
+}
+
+#content{
+	width: 100%;
+	margin-top: 25px;
+}
+
+#maincontent{
+	background: white;
+	width: 75%;
+	float: left;
+}
+
+
+
+#maincontent h2{
+	margin: 10px;
+	text-align: center;
+}
+
+#maincontent p{
+	margin: 10px;
+}
+
+#sidebar{
+	background: white;
+	width: 25%;
+	float: left;
+}
+
+#footer{
+	background: #393939;
+	text-align: center;
+	clear: both;
+	padding: 10px;
+	color: white;
+
+  position:fixed;
+  bottom:0px;
+  width: 100%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #8ac6d1;
+}
+
+.active {
+  background-color: #baabda;
+}
+
+.block-title {
+    line-height: 1;
+    margin-top: 0px;
+  }
+
+.block-title h3 {
+   background: linear-gradient(to right, #5b86e5, #36d1dc);
+   padding : 8px;
+   color : white;
+   line-height: 27px;
+  }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+
+/* Add some padding inside the card container */
+.contai {
+  padding: 2px 16px;
+  background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+
+.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 30%;
+        height: auto;
+        justify-content: space-around;
+ }
+
+      .gallery:hover {
+        border: 1px solid #777;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      .desc {
+        padding: 5px;
+        text-align: center;
+      }

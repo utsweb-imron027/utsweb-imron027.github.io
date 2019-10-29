@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Web Sederhana - Contact Us</title>
+		<link rel="stylesheet" href="assets/css/style1.css">
+		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+	</head>
+	<body>
+		<div class="container">
+			<div id="header">
+				<h2>Web Sederhana Imron</h2>
+			</div>
+			<div class="topnav">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="profil.html">Profile</a></li>
+					<li><a href="galeri.html">Galery</a></li>
+					<li><a href="#" class="active">Contact Us</a></li>
+					<li><a href="pbw.html">Tugas Pemrograman WEB</a></li>
+				</ul>
+			
+			</div>
+
+			<div id="content">
+				<div id="maincontent">
+					<h2>Contact Us</h2><br><br>
+					<p>Terima kasih telah mengunjungi Web Sederhana. Anda dapat menghubungi admin dengan informasi yang ada dibawah ini, atau mengisi Form Contact Us.</p>
+					<b>*Alamat Rumah : Banjarbendo Sidoarjo</b><br>
+					<b>*Alamat Email : 171080200027@umsida.ac.id</b><br>
+					<b>*Alamat Web : imron-official.github.io</b><br>
+					<b>*Nomor Telpon : 083830400116 (Whatsapp Only)</b><br><br>					
+					<br>
+					<form method="post" onsubmit="myFunction()">
+                <table align="center">
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="Masukkan Nama" required/></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" placeholder="Masukkan Email" required/></td>
+                    </tr>
+                     <tr>
+                        <td>URL*</td>
+                        <td>:</td>
+                        <td><input type="url" name="url" placeholder="Masukkan Alamat Web" required/></td>
+                    </tr>
+                		<tr>
+                        <td>Pesan</td>
+                        <td>:</td>
+                        <td><textarea name="Pesan" rows="5" cols="25" wrap required>silahkan masukkan Pesan Anda</textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <br>
+                            <input type="submit" value="Submit" name="submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+					<br><br>
+				</div>
+				<div id="sidebar">
+					<div class="block-title">
+						<center>
+					 		<h3>Artikel Terbaru</h3>
+					 	</center>
+					</div>
+					<div class="card">
+					  <div class="contai">
+					  	<a href="hosting-github.html">
+					  		<h4>Hosting Dengan Github Page</h4>
+					  	</a>
+					  </div>
+					</div>
+					<div class="card">
+					  <div class="contai">
+					  	<a href="upload-000webhost.html">
+					  		<h4>Cara Upload File di 000WebHost</h4>
+					  	</a>
+					  </div>
+					</div>
+					<div class="card">
+					  <div class="contai">
+					  	<a href="pengenalan-github.html">
+					  		<h4>Pengenalan Github</h4>
+					  	</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">Universitas Muhammadiyah Sidoarjo © All Rights Reserved. 2019 By. Imron Hidayat</div>
+		</div>
+		
+		<script>
+		function myFunction() {
+		  alert("Pesan Berhasil Terkirim");
+		}
+		</script>
+	</body>
+</html>
